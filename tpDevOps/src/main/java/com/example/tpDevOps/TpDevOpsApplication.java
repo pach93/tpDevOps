@@ -16,7 +16,7 @@ public class TpDevOpsApplication {
 @RestController
 class HelloWorldController{
 	@GetMapping("/")
-	public  String sayHello(''){
+	public  String sayHello(){
 		return "Hello World";
 	}
 }
