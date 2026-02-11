@@ -30,6 +30,7 @@ jobs:
       # Build & tests Maven
       - name: Build with Maven
         run: mvn clean verify
+        working-directory: tpDevOps
 
       # Upload du JAR comme artefact
       - name: Upload JAR artifact
